@@ -180,10 +180,10 @@ section {
   text-transform: capitalize;
 }
 .about.container--flex .image__about {
-  flex: 1 40%;
+  flex: 1 300px;
 }
 .about.container--flex .about__content {
-  flex: 1 40%;
+  flex: 1 300px;
   padding: 10px;
 }
 .about.container--flex .about__content p{
