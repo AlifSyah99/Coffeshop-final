@@ -342,9 +342,9 @@ section {
   margin-bottom: 100px;
   justify-content: center;
 }
-.kelompok.container--flex .box {
+.kelompok.container--flex .box{
   flex-basis: 300px;
-  padding: 50px;
+  padding: 40px;
   text-align: center;
   border-radius: 10px;
   border: 1px solid #ffffff4d;
@@ -354,6 +354,9 @@ section {
 }
 .kelompok.container--flex .box img {
   width: 70px;
+}
+.box p{
+  font-size: 12px;
 }
 
 @media (max-width: 1024px) {
