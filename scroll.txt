@@ -1,0 +1,21 @@
+html {
+  /* font-size: 62.5%; */
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+  width: 12px;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 10px;
+}
+:root {
+  --main--color: #d3ad7f;
+  --secondary--color: #edeae3;
+  --black--color: #13131a;
+  --bg--color: #010103;
+  --border: 1px solid rgba(255, 255, 255, 0.3);
+}
