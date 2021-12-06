@@ -12,7 +12,7 @@
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 4rem;
+  scroll-padding-top: 50px;
 }
 
 /* Reuse */
@@ -29,7 +29,7 @@ body {
   background: #010103;
 }
 section {
-  padding: 1rem 7%;
+  padding: 10px 7%;
 }
 .button {
   margin-top: 10px;
@@ -51,7 +51,7 @@ section {
   text-transform: uppercase;
 }
 .content p {
-  font-size: 0.6rem;
+  font-size: 14px;
   color: #eee;
   line-height: 1.8;
   padding: 10px 0;
@@ -93,7 +93,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 7%;
+  padding: 10px 7%;
   position: fixed;
   top: 0;
   left: 0;
@@ -180,11 +180,14 @@ section {
   text-transform: capitalize;
 }
 .about.container--flex .image__about {
-  flex: 1 300px;
+  flex: 1 40%;
 }
 .about.container--flex .about__content {
-  flex: 1 300px;
+  flex: 1 40%;
   padding: 10px;
+}
+.about.container--flex .about__content p{
+  font-size: 12px;
 }
 
 /* ----------product--------------- */
@@ -227,11 +230,11 @@ section {
 
 .container--small .title--small {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 16px;
 }
 .container--small .title--big {
   color: #d3ad7f;
-  font-size: 2rem;
+  font-size: 30px;
 }
 .container--small .sosial__container {
   margin-top: 30px;
@@ -241,7 +244,7 @@ section {
   color: #d3ad7f;
 }
 .container--small .sosial__container #icon__ig {
-  font-size: 2rem;
+  font-size: 30px;
 }
 .container--small .sosial__container h3 {
   font-weight: lighter;
@@ -270,7 +273,7 @@ section {
   margin-bottom: 20px;
 }
 .footer.container--flex .footer__info {
-  flex: 3 400px;
+  flex:3 400px;
   align-self: flex-start;
 }
 .footer.container--flex .footer__menu {
@@ -294,7 +297,7 @@ section {
   margin-bottom: 10px;
 }
 .footer.container--flex .footer__sosial .sosial__icon i {
-  font-size: 2rem;
+  font-size: 30px;
   color: #d3ad7f;
 }
 .footer.container .footer__copyright {
@@ -326,7 +329,7 @@ section {
 }
 
 .about__html .container--small p {
-  font-size: 1rem;
+  font-size: 14px ;
   color: #eee;
   padding: 10px 0;
   text-align: center;
