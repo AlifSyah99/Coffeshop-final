@@ -5,13 +5,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
+
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   outline: none;
   border: none;
 }
-html{
+html {
   scroll-behavior: smooth;
   scroll-padding-top: 4rem;
 }
@@ -251,7 +251,7 @@ section {
 /* -------footer------------------ */
 .footer__section {
   min-height: 50vh;
-  border-top: 1px solid #ffffff4d;;
+  border-top: 1px solid #ffffff4d;
 }
 .footer.container .logo {
   margin: 20px 0;
@@ -301,29 +301,28 @@ section {
 .footer.container .footer__copyright {
   margin-top: 50px;
   padding: 5px 0;
-  border-top: 1px solid #ffffff4d;;
+  border-top: 1px solid #ffffff4d;
 }
 .footer.container .footer__copyright p {
   color: #fff;
   font-size: 12px;
 }
 
-
 /* ------------about html--------------------- */
-.about__html.about__section{
-  padding:58px 0;
+.about__html.about__section {
+  padding: 58px 0;
 }
-.about__section .bg__content{
+.about__section .bg__content {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/about-img.jpeg) no-repeat;
   min-height: 50vh;
   background-size: cover;
-  background-position:center -200px;
+  background-position: center -200px;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about__html .container--small{
+.about__html .container--small {
   padding-top: 40px;
   padding-bottom: 20px;
 }
@@ -336,18 +335,18 @@ section {
 }
 
 /* ------------kelompok------------------ */
-.kelompok__section{
-  padding-top:5px;
+.kelompok__section {
+  padding-top: 5px;
 }
-.kelompok.container--flex{
+.kelompok.container--flex {
   background: #010103;
   padding-top: 10px;
   margin-bottom: 100px;
   justify-content: center;
 }
- .kelompok.container--flex .box{
+.kelompok.container--flex .box {
   flex-basis: 300px;
-  padding: 50px; 
+  padding: 50px;
   text-align: center;
   border-radius: 10px;
   border: 1px solid #ffffff4d;
@@ -355,7 +354,7 @@ section {
   background: #13131a;
   transition: background 0.3s;
 }
-.kelompok.container--flex .box img{
+.kelompok.container--flex .box img {
   width: 70px;
 }
 
@@ -425,12 +424,12 @@ section {
   }
 
   /* --------about html---------- */
-  .about__section .bg__content{
+  .about__section .bg__content {
     min-height: 40vh;
     background-position: center -100px;
   }
   .about__html .container--small p {
-    font-size: .8rem;
+    font-size: 0.8rem;
     color: #eee;
     padding: 10px 20px;
     text-align: center;
