@@ -372,7 +372,6 @@ section {
   .header .menu a:hover {
     border: none;
   }
-  
   .header .menu.active {
     right: 0;
   }
