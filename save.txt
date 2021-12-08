@@ -1,0 +1,72 @@
+html {
+  /* font-size: 62.5%; */
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+  width: 12px;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 10px;
+}
+:root {
+  --main--color: #d3ad7f;
+  --secondary--color: #edeae3;
+  --black--color: #13131a;
+  --bg--color: #010103;
+  --border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+ <!-- ---------searchbar---------------- -->
+      <div class="icons">
+        <div class="bx bx-search" id="search"></div>
+        <div class="bx bx-menu" id="menu-toogle"></div>
+      </div>
+
+      <!-- -------search form------------ -->
+      <!-- <div class="search__form">
+        <input type="search" id="search--box" placeholder="Search here...." />
+        <div class="bx bx-search" id="search"></div>
+      </div> -->
+
+css : 
+
+.header .search__form {
+  position: absolute;
+  top: 102%;
+  right: 7%;
+  background: #fff;
+  width: 500px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+}
+.header .search__form.active {
+  transform: scaleY(1);
+}
+.header .search__form input {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  padding: 15px;
+  text-transform: none;
+}
+.header .search__form div {
+  font-size: 25px;
+  margin-right: 5px;
+  color: #13131a;
+}
+.header .search__form div:hover {
+  color: #d3ad7f;
+}
+media screen
+  .header .search__form {
+    width: 86%;
+    right: 7%;
+  }

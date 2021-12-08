@@ -125,37 +125,6 @@ section {
 .header .icons div:hover {
   color: #d3ad7f;
 }
-.header .search__form {
-  position: absolute;
-  top: 102%;
-  right: 7%;
-  background: #fff;
-  width: 500px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: 0.3s;
-}
-.header .search__form.active {
-  transform: scaleY(1);
-}
-.header .search__form input {
-  width: 100%;
-  height: 100%;
-  font-size: 14px;
-  padding: 15px;
-  text-transform: none;
-}
-.header .search__form div {
-  font-size: 25px;
-  margin-right: 5px;
-  color: #13131a;
-}
-.header .search__form div:hover {
-  color: #d3ad7f;
-}
 
 /* ----bagian home---- */
 .home__section {
@@ -180,10 +149,10 @@ section {
   text-transform: capitalize;
 }
 .about.container--flex .image__about {
-  flex: 1 40%;
+  flex: 1 300px;
 }
 .about.container--flex .about__content {
-  flex: 1 40%;
+  flex: 1 300px;
   padding: 10px;
 }
 .about.container--flex .about__content p{
@@ -206,7 +175,9 @@ section {
 }
 
 .product__section .container--grid .box img {
-  width: 90px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
 .product__section .container--grid .box h3 {
   padding: 10px 0;
@@ -353,7 +324,12 @@ section {
   border: 1px solid #ffffff4d;
   color: #eee;
   background: #13131a;
-  transition: background 0.3s;
+  transition: all 0.3s;
+}
+.kelompok.container--flex .box:hover{
+  background: #fff;
+  color: #010103;
+  transform: translateY(-10px);
 }
 .kelompok.container--flex .box img {
   width: 70px;
@@ -415,10 +391,7 @@ section {
   .home__content p {
     font-size: 0.7rem;
   }
-  .header .search__form {
-    width: 86%;
-    right: 7%;
-  }
+
   .about.container--flex .about__content {
     display: flex;
     flex-direction: column;
