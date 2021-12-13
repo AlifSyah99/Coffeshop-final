@@ -12,10 +12,8 @@
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 50px;
+  scroll-padding-top: 75px;
 }
-
-/* Reuse */
 li {
   list-style: none;
 }
@@ -67,27 +65,7 @@ section {
   font-size: 40px;
   color: #d3ad7f;
 }
-.container--flex {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  background: #13131a;
-}
-.container--grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 15px;
-}
-.logo {
-  color: #d3ad7f;
-  font-size: 22px;
-}
-.container--small {
-  max-width: 1024px;
-  text-align: center;
-  margin: auto;
-}
+
 /* ----------header--------------*/
 .header {
   display: flex;
@@ -100,6 +78,10 @@ section {
   background: #010103;
   border-bottom: 1px solid #ffffff4d;
   z-index: 1000;
+}
+.header .logo{
+    width: 150px;
+    height: 85px;
 }
 .header .menu{
   margin-left: auto;
@@ -149,6 +131,13 @@ section {
   font-size: 25px;
   text-transform: capitalize;
 }
+.about.container--flex{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  background: #13131a;
+}
 .about.container--flex .image__about {
   flex: 1 300px;
 }
@@ -161,6 +150,11 @@ section {
 }
 
 /* ----------product--------------- */
+.product.container--grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
 .product__section .container--grid .box {
   padding: 50px;
   text-align: center;
@@ -168,6 +162,7 @@ section {
   color: #fff;
   transition: background 0.3s;
 }
+
 .product__section .container--grid .box:hover {
   background: #fff;
 }
@@ -227,12 +222,17 @@ section {
   min-height: 50vh;
   border-top: 1px solid #ffffff4d;
 }
+.footer.container--flex{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  background: #010103;
+}
 .footer.container .logo {
   margin: 20px 0;
+  width: 200px;
   display: inline-block;
-}
-.footer.container--flex {
-  background: #010103;
 }
 .footer.container--flex p {
   color: #fff;
@@ -298,6 +298,9 @@ section {
 }
 .about__html .container--small {
   padding-top: 50px;
+    max-width: 1024px;
+    text-align: center;
+    margin: auto;
 }
 
 .about__html .container--small p {
@@ -312,6 +315,10 @@ section {
   padding-top: 2px;
 }
 .kelompok.container--flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
   background: #010103;
   padding-top: 10px;
   margin-bottom: 100px;

@@ -12,9 +12,9 @@
   <body>
     <!-- --------Navigasi------------ -->
     <header class="header">
-      <!-- --------logo-------------- -->
+      <!-- --------logo home-------------- -->
       <a href="#" class="logo">
-        <h3>Logo</h3>
+        <img src="img/logo.png" alt="">
       </a>
       <!-- ------------menu-------------- -->
       <nav class="menu">
@@ -97,7 +97,9 @@
     <section class="footer__section">
         <div class="footer container">
 
-            <a href="" class="logo">logo</a>
+            <a href="" class="logo">
+              <img src="img/logo.png" alt="">
+            </a>
 
             <div class="footer container--flex">
                 <div class="footer__info">
@@ -137,24 +139,16 @@
 
     </section>
     <script>
-      let search = document.querySelectorAll("#search");
-      let form = document.querySelector(".search__form");
       let menuIcon = document.querySelector("#menu-toogle");
       let navbar = document.querySelector(".menu");
-      for (i = 0; i < search.length; i++) {
-        search[i].onclick = () => {
-          form.classList.toggle("active");
-          navbar.classList.remove("active");
-        };
-      }
       menuIcon.onclick = () => {
         navbar.classList.toggle("active");
         form.classList.remove("active");
       };
       document.addEventListener("scroll", () => {
         navbar.classList.remove("active");
-        form.classList.remove("active");
       });
+
     </script>
   </body>
 </html>

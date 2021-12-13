@@ -13,7 +13,7 @@
     <header class="header">
         <!-- --------logo-------------- -->
         <a href="#" class="logo">
-            <h3>Logo</h3>
+            <img src="img/logo.png" alt="">
         </a>
         <!-- ------------menu-------------- -->
         <nav class="menu">
@@ -123,11 +123,11 @@
 
         <div class="follow container--small">
             <h3 class="title--small">follow</h3>
-            <h3 class="title--big">Coffe Shop</h3>
+            <h3 class="title--big">The Brothers Coffe</h3>
 
             <div class="follow sosial__container">
                 <i class='bx bxl-instagram-alt' id="icon__ig"></i>
-                <h3>MyCoffeshop</h3>
+                <h3>TheBrothersCoffe</h3>
             </div>
         </div>
     </section>
@@ -136,7 +136,9 @@
     <section class="footer__section">
         <div class="footer container">
 
-            <a href="" class="logo">logo</a>
+            <a href="#home" class="logo">
+                <img src="img/logo.png" alt="">
+            </a>
 
             <div class="footer container--flex">
                 <div class="footer__info">
@@ -179,24 +181,16 @@
 
 
  <script>
-     let search = document.querySelectorAll("#search");
-     let form = document.querySelector(".search__form");
+
      let menuIcon = document.querySelector("#menu-toogle");
      let navbar = document.querySelector(".menu");
-     for (i = 0; i < search.length; i++) {
-     search[i].onclick= ()=>{
-        form.classList.toggle('active');
-        navbar.classList.remove('active');
-
-     }
-    }      
+    
     menuIcon.onclick = ()=>{
         navbar.classList.toggle('active');
         form.classList.remove('active');
     }
     document.addEventListener('scroll',()=>{
         navbar.classList.remove('active');
-        form.classList.remove('active');
     });
 
 
